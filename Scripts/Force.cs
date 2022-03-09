@@ -44,6 +44,7 @@ public class Force : MonoBehaviour
         Debug.Log("remainTime = " + remainTime);
 
         remainTime -= Time.fixedDeltaTime;
+        
 
         // 可通过积分算式应用于各对象上的作用力效果
         ball.Intergate(Time.deltaTime);
